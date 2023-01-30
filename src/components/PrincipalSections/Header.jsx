@@ -8,7 +8,7 @@ const Header = () => {
       <nav id="header-nav" className="nav">
         <div className="container px-15 flex justify-between items-center p-relative md:px-0">
           <div className="flex  gap-xl">
-            <a href="index.html">
+            <a href="/">
               <img src={logo} alt="" className="nav__logo" width="114" height="39" />
             </a>
             <ul className="list flex items-center gap-xl hidden md:flex">
@@ -23,8 +23,8 @@ const Header = () => {
           <div className="list flex items-center gap-md">
             <img className="hidden md:flex" src={searchIcon} alt="searchIcon"/>
               <span className="divider-line h-full"></span>
-              <a className="list__link p3" href="#ss">Login</a>
-              <button className="button-white">Join Us</button>
+              <a className="list__link p3" href="/login">Login</a>
+              <a href="/register"><button className="button-white" href="/register">Join Us</button></a>
           </div>
         </div>
       </nav>

@@ -6,6 +6,7 @@ import StepsSection from "../HomePage/StepsSection"
 import Footer from "../PrincipalSections/Footer"
 import NewsSection from "../HomePage/NewsSection"
 import CouchResume from "../HomePage/CouchResume"
+
 const HomePage = () => {
   return (
     <>

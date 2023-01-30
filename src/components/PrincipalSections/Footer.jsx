@@ -50,8 +50,8 @@ const Footer = () => {
         </div>
         <div className="">
           <ul className="footer__contact-links">
-            <li><a href="http://"><p className="p3 text-grey">Help Center</p></a></li>
-            <li><a href="http://"><p className="p3 text-grey">Terms and conditions</p></a></li>
+            <li><a href="/"><p className="p3 text-grey">Help Center</p></a></li>
+            <li><a href="/"><p className="p3 text-grey">Terms and conditions</p></a></li>
           </ul>
         </div>
       </div>

@@ -3,7 +3,6 @@ import React from 'react'
 import CardItem from "../Molecules/CardItem"
 
 const CouchResume = () => {
-
     const totalItems = 6;
     const items = new Array(totalItems).fill(null);
 
