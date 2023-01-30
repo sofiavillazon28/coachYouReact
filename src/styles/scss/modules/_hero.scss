@@ -1,0 +1,16 @@
+.hero {
+	background: linear-gradient(242.9deg, #121C2F 22.94%, #202030 50.54%, #26212F 77.21%, #40282D 96.39%, #4D2B2C 108.09%);
+	opacity: 0.88;
+	min-height: 880px;
+	overflow: hidden;
+	position: relative;
+}
+.circle-animation {
+	position: absolute;
+	border-radius: 50%;
+	width: 1200px;
+	height: 1200px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(250, 84, 28, 0.08) 0%, rgba(250, 84, 28, 0.0704167) 11.98%, rgba(250, 84, 28, 0.065) 18.75%, rgba(250, 84, 28, 0.0545833) 31.77%, rgba(250, 84, 28, 0.04625) 42.19%, rgba(250, 84, 28, 0.0404167) 49.48%, rgba(250, 84, 28, 0.0308013) 62.5%, rgba(250, 84, 28, 0.0254167) 69.79%, rgba(250, 84, 28, 0.0214727) 74.48%, rgba(250, 84, 28, 0.0135848) 83.85%, rgba(250, 84, 28, 0.00788793) 90.62%, rgba(250, 84, 28, 0) 100%);
+	animation: particle 30s ease-in-out 0s infinite alternate;
+	opacity: 0.9;
+}

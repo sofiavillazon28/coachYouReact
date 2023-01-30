@@ -1,0 +1,21 @@
+.header {
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border: 1px solid rgba(255, 255, 255, 0.01);
+	backdrop-filter: blur(15px);
+	border-radius: 0px 0px 20px 20px;
+	background-color: rgba(28, 28, 42, 0.5);
+}
+body {
+	background-color: #121d2f;
+}
+@media (min-width: 768px) {
+	.header {
+		background-color: rgba(28, 28, 42, 0.5);
+	}
+	.header-s {
+		background-color: rgba(28, 28, 42, 0.8);
+	}
+}

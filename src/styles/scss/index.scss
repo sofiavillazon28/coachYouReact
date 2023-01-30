@@ -1,0 +1,28 @@
+@import "./modules/variables";
+
+@import "./modules/animations";
+@import "./modules/buttons";
+@import "./modules/card";
+@import "./modules/footer";
+@import "./modules/header";
+@import "./modules/hero";
+@import "./modules/layout";
+@import "./modules/list";
+@import "./modules/nav";
+@import "./modules/utils";
+
+@import "./modules/search";
+@import "./modules/sections";
+@import "./modules/stats";
+@import "./modules/texfields";
+@import "./modules/typography";
+
+.body {
+	color: var(--primary-text-color);
+	font-family: var(--primary-font-family);
+	margin: 0;
+}
+.main {
+	background-color: var(--primary-theme-color);
+	overflow: hidden;
+}
