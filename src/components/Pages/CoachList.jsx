@@ -13,7 +13,10 @@ const CoachList = () => {
   return (
     <>
       <Header></Header>
-      <SearchBar/>
+
+      <div className='container'>
+        <SearchBar/>
+      </div>
 
       <section className="section section-cards">
             <div className="container g-elements gap-md">

@@ -9,16 +9,16 @@ const SearchBar = () => {
   return (
     <>
       <section className="section">
-        <form className="search flex flex-column justify-content md:flex-row resp-flex mt-2 stats">
-          <div className="search-field flex items-center gap-sm w-176">
+        <form className="search flex flex-column justify-content md:flex-row mt-2 stats w-full">
+          <div className="search-field flex items-center gap-sm w-full">
             <img src={search} alt="¿Qué coach buscas?" width="20" height="20" />
             <input className="search-input p2 appearance-none" type="text" placeholder="¿Qué coach buscas?" />
           </div>
           <span className="divider-line hidden md:block"></span>
-          <div className="search-field flex items-center gap-sm w-134 ">
+          <div className="search-field flex items-center gap-sm w-full">
             <img src={pin} alt="País" width="20" height="20" />
             <select className="search-input p2 appearance-none" placeholder="País">
-              <option value="" disabled selected>País</option>
+              <option value="" selected>País</option>
               <option value="peru">Perú</option>
               <option value="colombia">Colombia</option>
               <option value="mexico">México</option>
@@ -27,7 +27,7 @@ const SearchBar = () => {
             </select>
           </div>
           <span className="divider-line hidden md:block"></span>
-          <div className="search-field flex items-center gap-sm w-138">
+          <div className="search-field flex items-center gap-sm w-full">
             <img src={inventory_management} alt="Expecialidad" width="20" height="20" />
             <select className="search-input p2 appearance-none" placeholder="Especialidad">
               <option value="" disabled selected>Especialidad</option>
@@ -36,7 +36,7 @@ const SearchBar = () => {
               <option value="colombia">Ciencia de datos</option>
             </select>
           </div>
-          <button className="button square-button">
+          <button className="button square-button w-full md:w-auto">
             <img src={search2} alt="search" />
           </button>
         </form>

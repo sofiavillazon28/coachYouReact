@@ -9,6 +9,7 @@
 	cursor: pointer;
 	pointer-events: auto;
 	padding: 11px 10px 11px 15.5px;
+	box-sizing: border-box;
 }
 select {
 	&::placeholder {
@@ -20,4 +21,5 @@ select {
 .search-input {
 	border: 0;
 	background-color: var(--white-text-color);
+	width: 100%;
 }
