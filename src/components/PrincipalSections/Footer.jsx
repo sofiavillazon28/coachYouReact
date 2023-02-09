@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="footer__contact-addres">
           <div className="f-elements">
             <img src={Message} alt=""/>
-              <p className="p3 text-primary"> info@couchyou.com</p>
+              <p className="p3 text-primary"> info@coachyou.com</p>
           </div>
           <div className="f-elements">
             <img src={map_marker} alt=""/>

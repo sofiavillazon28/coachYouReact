@@ -5,7 +5,7 @@ import Footer from "../PrincipalSections/Footer"
 import SearchBar from "../Molecules/SearchBar"
 import CardItem from "../Molecules/CardItem"
 
-const CouchList = () => {
+const CoachList = () => {
 
   const totalItems = 12;
   const items = new Array(totalItems).fill(null);
@@ -28,4 +28,4 @@ const CouchList = () => {
   );
 };
 
-export default CouchList;
+export default CoachList;

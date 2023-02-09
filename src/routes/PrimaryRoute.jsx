@@ -1,9 +1,9 @@
 import React from 'react'
 import HomePage from "../components/Pages/HomePage";
-import CouchList from "../components/Pages/CouchList";
+import CoachList from "../components/Pages/CoachList";
 import Login from "../components/Pages/Login";
 import Register from "../components/Pages/Register";
-import CouchDetail from "../components/Pages/CouchDetail";
+import CoachDetail from "../components/Pages/CoachDetail";
 
 import { createBrowserRouter } from "react-router-dom";
 
@@ -14,7 +14,7 @@ export const primaryRoute = createBrowserRouter([
   },
   {
     path: "/list",
-    element: <CouchList />,
+    element: <CoachList />,
   },
   {
     path: "/login",
@@ -26,6 +26,6 @@ export const primaryRoute = createBrowserRouter([
   },
   {
     path: "/detail",
-    element: <CouchDetail />,
+    element: <CoachDetail />,
   },
 ]);

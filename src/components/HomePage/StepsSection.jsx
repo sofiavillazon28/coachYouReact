@@ -6,7 +6,7 @@ import resume from "../../assets/images/images/resume_job.svg"
 
 const StepsSection = () => {
     return (
-        <article class="learnbox">
+      <article class="learnbox">
       <div class="container px-15 flex flex-column items-center md:px-0">
         <p class="learnbox-subtitle caption text-grey">Para estudiantes</p>
         <h2 class="learnbox-title text-primary">Crece en tu carrera aprendiendo de los mejores</h2>
@@ -22,7 +22,7 @@ const StepsSection = () => {
           <article class="stepbox flex flex-column items-center justify-center">
             <img class="stepbox-icon" src={search} alt="Step 2: Search Job" width="80" height="72"/>
             <p class="stepbox-subtitle caption text-grey">STEP 2</p>
-            <h4 class="stepbox-title text-primary">Busca tu Couch</h4>
+            <h4 class="stepbox-title text-primary">Busca tu Coach</h4>
             <p class="stepbox-text p3 text-primary text-center">Nunc nonummy metus.<br />Donec elit libero</p>
           </article>
           <article class="flex flex-column items-center justify-center">

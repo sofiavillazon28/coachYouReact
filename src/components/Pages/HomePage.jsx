@@ -5,7 +5,7 @@ import Hero from "../PrincipalSections/Hero"
 import StepsSection from "../HomePage/StepsSection"
 import Footer from "../PrincipalSections/Footer"
 import NewsSection from "../HomePage/NewsSection"
-import CouchResume from "../HomePage/CouchResume"
+import CoachResume from "../HomePage/CoachResume"
 
 const HomePage = () => {
   return (
@@ -15,7 +15,7 @@ const HomePage = () => {
       <main class="main">
         <Hero></Hero>
         <StepsSection></StepsSection>
-        <CouchResume></CouchResume>
+        <CoachResume></CoachResume>
 
         <NewsSection></NewsSection>
         <Footer></Footer>

@@ -11,8 +11,8 @@ const SearchBar = () => {
       <section className="section">
         <form className="search flex flex-column justify-content md:flex-row resp-flex mt-2 stats">
           <div className="search-field flex items-center gap-sm w-176">
-            <img src={search} alt="¿Qué couch buscas?" width="20" height="20" />
-            <input className="search-input p2 appearance-none" type="text" placeholder="¿Qué couch buscas?" />
+            <img src={search} alt="¿Qué coach buscas?" width="20" height="20" />
+            <input className="search-input p2 appearance-none" type="text" placeholder="¿Qué coach buscas?" />
           </div>
           <span className="divider-line hidden md:block"></span>
           <div className="search-field flex items-center gap-sm w-134 ">
