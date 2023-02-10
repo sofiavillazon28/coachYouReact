@@ -46,7 +46,7 @@ const Footer = () => {
       </div>
       <div className="footer__contact-rights container f-elements align-center space-between">
         <div>
-          <p className="p2 text-grey">© 2022 All rights reserved</p>
+          <p className="p2 text-grey">© {new Date().getFullYear()} All rights reserved</p>
         </div>
         <div className="">
           <ul className="footer__contact-links">

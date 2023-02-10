@@ -101,13 +101,22 @@
     .mt-24 {
       margin-top: 24px;
     }
+    
+    .mt-60 {
+      margin-top: 60px;
+    }
   
   .mt-120 {
 	margin-bottom: 0;
   }
-  
+  .w-202 {
+    width: 100%
+    }
   .w-134 {
 	width: 100%
+  }
+  .w-162 {
+  width: 100%
   }
   
   .w-138 {
@@ -150,6 +159,10 @@
   .w-max {
 	width: 100%;
   }
+
+  .bg-gray {
+    background-color: var(--grey-dark3-theme-color)
+  }
   
   @media (min-width: 768px) {
 	.md\:position-fixed {
@@ -177,8 +190,14 @@
 	  width: 566px;
 	}
   
+	.w-212 {
+	  width: 212px;
+	}
 	.w-134 {
 	  width: 8.375rem;
+	}
+	.w-162 {
+	  width: 162px;
 	}
 	
 	.w-138 {

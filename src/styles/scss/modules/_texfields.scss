@@ -4,6 +4,9 @@ input {
 		outline: none;
 	}
 }
+input:disabled {
+	background: #aaa;
+}
 select {
 	&:focus {
 		border: none;

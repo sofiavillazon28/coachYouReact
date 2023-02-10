@@ -44,7 +44,6 @@ const Hero = () => {
           <img className="w-max md:w-max" src={imgHero} width="564" height="700" alt=""/>
         </div>
       </div>
-      
     </article>
     );
   };
