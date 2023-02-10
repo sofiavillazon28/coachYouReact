@@ -1,9 +1,16 @@
-import React from 'react'
+import RegisterSection from '../RegisterPage/RegisterSection'
+import LogoSection from '../RegisterPage/LogoSection'
 
 const Register = () => {
 
     return (
-        <h1>Register</h1>
+        <main class="main">
+            <div className='container flex gap-lg mt-80'>
+                <RegisterSection />
+
+                <LogoSection />
+            </div>
+        </main>
     );
 };
 

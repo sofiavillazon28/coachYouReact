@@ -1,7 +1,7 @@
 import React from 'react'
 import HomePage from "../components/Pages/HomePage";
 import CoachList from "../components/Pages/CoachList";
-import Login from "../components/Pages/Login";
+import LoginPage from "../components/Pages/LoginPage";
 import Register from "../components/Pages/Register";
 import CoachDetail from "../components/Pages/CoachDetail";
 
@@ -18,7 +18,7 @@ export const primaryRoute = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <Login />,
+    element: <LoginPage />,
   },
   {
     path: "/register",

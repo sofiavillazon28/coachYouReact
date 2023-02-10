@@ -19,7 +19,6 @@ const HomePage = () => {
 
         <NewsSection></NewsSection>
         <Footer></Footer>
-        
       </main>
     </>
   );

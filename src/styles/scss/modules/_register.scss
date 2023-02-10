@@ -1,0 +1,24 @@
+.register-section {
+  max-width: 548px;
+  min-height: 720px;
+  background: var(--primary-paper-color);
+  box-shadow: -8px 8px 24px -4px var(--primary-shadow-color);
+  border-radius: var(--border-radius-large);
+  padding: 40px 96px;
+  box-sizing: border-box;
+}
+
+.register-field {
+  background: #EEF5FA;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 14px;
+  box-sizing: border-box;
+}
+
+.register-input {
+  border: 0;
+	background-color: #EEF5FA;
+	width: 100%;
+  padding: 6px;
+}

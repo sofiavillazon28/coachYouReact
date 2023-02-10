@@ -17,6 +17,9 @@
 @import "./modules/texfields";
 @import "./modules/typography";
 
+@import "./modules/login";
+@import "./modules/register";
+
 .body {
 	color: var(--primary-text-color);
 	font-family: var(--primary-font-family);
