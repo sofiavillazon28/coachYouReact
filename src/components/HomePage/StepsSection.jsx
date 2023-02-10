@@ -1,18 +1,20 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom';
+
 import signup from "../../assets/images/images/signup_job.svg"
 import search from "../../assets/images/images/search_job.svg"
 import resume from "../../assets/images/images/resume_job.svg"
 
 const StepsSection = () => {
     return (
-      <article class="learnbox">
+    <article class="learnbox">
       <div class="container px-15 flex flex-column items-center md:px-0">
         <p class="learnbox-subtitle caption text-grey">Para estudiantes</p>
         <h2 class="learnbox-title text-primary">Crece en tu carrera aprendiendo de los mejores</h2>
         <p class="learnbox-text p1 text-primary">Crece en tu carrera aprendiendo de los mejores</p>
 
-        <section class="learnbox-steps flex flex-column items-center justify-evenly w-full md:flex-row">
+        <section class="learnbox-steps flex flex-column items-center justify-evenly w-full md:flex-row mb-48">
           <article class="flex flex-column items-center justify-center">
             <img class="stepbox-icon" src={signup} alt="Step 1: Signup Job" width="80" height="72"/>
             <p class="stepbox-subtitle caption text-grey">STEP 1</p>
@@ -33,7 +35,9 @@ const StepsSection = () => {
           </article>
         </section>
 
-        <a class="button text-white" href="/list">Inicia tu búsqueda</a>
+        <div className=''>
+          <Link class="button text-white" to="/list">Inicia tu búsqueda</Link>
+        </div>
       </div>
     </article>
     );

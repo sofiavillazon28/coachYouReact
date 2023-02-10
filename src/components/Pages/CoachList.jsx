@@ -15,7 +15,9 @@ const CoachList = () => {
       <Header></Header>
 
       <div className='container'>
-        <SearchBar/>
+        <div className='section'>
+          <SearchBar/>
+        </div>
       </div>
 
       <section className="section section-cards">
