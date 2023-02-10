@@ -12,7 +12,7 @@ const HomePage = () => {
     <>
       <Header></Header>
 
-      <main class="main">
+      <main className="main">
         <Hero></Hero>
         <StepsSection></StepsSection>
         <CoachResume></CoachResume>

@@ -4,7 +4,7 @@ import LogoSection from '../LoginPage/LogoSection'
 const Login = () => {
 
     return (
-        <main class="main">
+        <main className="main">
             <div className='container flex gap-lg md:mt-80'>
                 <LoginSection />
 
