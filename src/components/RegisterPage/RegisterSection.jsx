@@ -8,29 +8,29 @@ import { Link } from "react-router-dom"
 
 const RegisterSection = () => {
   return (
-    <div className="register-section flex flex-column space-between">
+    <div className="register-section flex flex-column space-between w-full">
       <div>
         <img src={logo} alt="Logo CoachYou" width="114" height="40" />
         <h1 className="h1">Register</h1>
         <p className="p1 text-grey">Your next chapter, made possible by mentoring</p>
       </div>
 
-      <form className="register-form flex flex-column gap-md  mb-18">
+      <form className="register-form flex flex-column gap-md mb-18">
         <div className="register-field flex items-center gap-sm w-full">
           <img src={messageIcon} alt="Email Icon" width="20" height="20" />
-          <input className="register-input p2 appearance-none" type="text" placeholder="Email" />
+          <input className="register-input p2 appearance-none" type="email" required placeholder="Email" />
         </div>
         <div className="register-field flex items-center gap-sm w-full">
           <img src={userIcon} alt="Username Icon" width="20" height="20" />
-          <input className="register-input p2 appearance-none" type="text" placeholder="Username" />
+          <input className="register-input p2 appearance-none" type="text" required placeholder="Username" />
         </div>
         <div className="register-field flex items-center gap-sm w-full">
           <img src={lockedIcon} alt="Locked Icon" width="20" height="20" />
-          <input className="register-input p2 appearance-none" type="password" placeholder="Password" />
+          <input className="register-input p2 appearance-none" type="password" required placeholder="Password" />
         </div>
         <div className="register-field flex items-center gap-sm w-full">
           <img src={lockedIcon} alt="Locked Icon" width="20" height="20" />
-          <input className="register-input p2 appearance-none" type="password" placeholder="Confirm Password" />
+          <input className="register-input p2 appearance-none" type="password" required placeholder="Confirm Password" />
         </div>
 
         <button className="button button-regiter text-white w-full md:w-auto mt-24">

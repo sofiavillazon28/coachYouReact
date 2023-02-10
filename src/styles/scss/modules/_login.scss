@@ -1,12 +1,20 @@
 .login-section {
   max-width: 548px;
-  min-height: 720px;
+  min-height: auto;
   background: var(--primary-paper-color);
   box-shadow: -8px 8px 24px -4px var(--primary-shadow-color);
   border-radius: var(--border-radius-large);
-  padding: 94px 96px;
+  padding: 20px;
   box-sizing: border-box;
 }
+
+@media (min-width: 768px) {
+  .login-section {
+    min-height: 720px;
+    padding: 94px 96px;
+  }
+}
+
 
 .login-field {
   background: #EEF5FA;

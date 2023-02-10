@@ -5,7 +5,7 @@ const Register = () => {
 
     return (
         <main class="main">
-            <div className='container flex gap-lg mt-80'>
+            <div className='container flex gap-lg  md:mt-80'>
                 <RegisterSection />
 
                 <LogoSection />
