@@ -1,6 +1,10 @@
-# Coach You React
+# Coach You React - Mentorías profesionales
 
-### How to getting start?
+Reserva tus sesiones de mentoría uno a uno con profesionales altamente calificados
+
+[![Screen](./screen.png)](https://coach-you-react.vercel.app/)
+
+### Instalación del proyecto
 
 ```bash
 npm install
@@ -8,12 +12,16 @@ npm install
 npm run dev
 ```
 
-### User stories
+### Tecnologías usadas
 
-Los usuarios deberían ser capaz de:
-
-[ ] I can register a new account
-[ ] I can log in
-[ ] I can log in or register with at least one of the following services: Google, Facebook, Twitter or Github
-[ ] I can sign out
-[ ] I can see my profile details
+* Figma
+* Git
+* Github
+* Vite.js
+* HTML
+* CSS
+* Sass
+* JS
+* React.js
+* Supabase
+* Vercel. 
