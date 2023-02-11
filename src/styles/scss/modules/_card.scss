@@ -55,3 +55,16 @@
 		width: 100%;
 	}
 }
+
+
+.card-elm {
+	min-width: 472px;
+}
+
+.card-info {
+	min-width: 472px;
+	background-color: #fff;
+	box-shadow: -8px 8px 24px -4px rgba(145, 158, 171, 0.1);
+	border-radius: var(--border-radius-large);
+	padding: 32px;
+}

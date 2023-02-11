@@ -1,12 +1,14 @@
 import { supabase } from "../utils/supabase"
 
 export const signUp = async ({ email, password, username }) => {
+  const app = 'coachyou'
   const response = await supabase.auth.signUp({
     email,
     password,
     options: {
       data: {
-        username
+        username,
+        app
       }
     }
   })

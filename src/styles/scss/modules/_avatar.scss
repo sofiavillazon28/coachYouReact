@@ -77,3 +77,10 @@
   transform: rotate(45deg);
   z-index: -1;
 }
+
+.avatar-info-box {
+  min-width: 175px;
+  & img {
+    border-radius: 50%;
+  }
+}

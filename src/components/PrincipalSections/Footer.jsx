@@ -8,6 +8,7 @@ import iconbase2 from "../../assets/images/icons/iconbase-1.svg"
 import Message from "../../assets/images/icons/Message.svg" 
 import map_marker from "../../assets/images/icons/map_marker.svg" 
 import arrow from "../../assets/images/icons/arrow2.svg" 
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -50,8 +51,8 @@ const Footer = () => {
         </div>
         <div className="">
           <ul className="footer__contact-links">
-            <li><a href="/"><p className="p3 text-grey">Help Center</p></a></li>
-            <li><a href="/"><p className="p3 text-grey">Terms and conditions</p></a></li>
+            <li><Link to="/"><p className="p3 text-grey">Help Center</p></Link></li>
+            <li><Link to="/"><p className="p3 text-grey">Terms and conditions</p></Link></li>
           </ul>
         </div>
       </div>

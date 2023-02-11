@@ -1,0 +1,21 @@
+.tabs {
+  &-nav {
+    display: flex;
+    gap: 40px;
+  }
+  &-nav {
+    margin-bottom: 40px;
+  }
+  &-item {
+    cursor: pointer;
+    color: #919EAB;
+    &--active {
+      color: #FA541C;
+      border-bottom: 2px solid #FA541C;
+      padding-bottom: 8px;
+    }
+  }
+  &-body {
+
+  }
+}

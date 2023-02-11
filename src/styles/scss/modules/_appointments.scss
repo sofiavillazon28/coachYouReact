@@ -1,0 +1,42 @@
+.appointments {}
+
+.appointment {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #919EAB;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  max-width: 76px;
+  transition: .3s;
+
+  &-date {
+    white-space: nowrap;
+  }
+
+  &:hover {
+    border: 1px solid #FA541C;
+  }
+
+  &--active {
+    border: 1px solid #FA541C;
+  }
+}
+
+.appointment-time {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #919EAB;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  transition: .3s;
+
+  &:hover {
+    border: 1px solid #FA541C;
+  }
+
+  &--active {
+    border: 1px solid #FA541C;
+  }
+}

@@ -62,6 +62,10 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
+	.g-elements-x2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 	.section-cards {
 		background-color: var(--secondary-paper-color);
 		padding-top: 80px;
