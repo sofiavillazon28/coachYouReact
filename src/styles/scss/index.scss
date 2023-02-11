@@ -1,5 +1,10 @@
 @import "./modules/variables";
 
+@import "./modules/login";
+@import "./modules/register";
+@import "./modules/avatar.scss";
+
+@import "./modules/alerts";
 @import "./modules/animations";
 @import "./modules/buttons";
 @import "./modules/card";
@@ -17,8 +22,7 @@
 @import "./modules/texfields";
 @import "./modules/typography";
 
-@import "./modules/login";
-@import "./modules/register";
+
 
 .body {
 	color: var(--primary-text-color);

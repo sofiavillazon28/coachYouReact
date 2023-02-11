@@ -90,6 +90,10 @@
 	padding: 0;
   }
 
+  .mb-5 {
+    margin-bottom: 10px;
+  }
+
   .mb-18 {
     margin-bottom: 18px;
   }
@@ -174,6 +178,10 @@
 
   .bg-gray {
     background-color: var(--grey-dark3-theme-color)
+  }
+
+  .is-disabled {
+    background: #dfdfdf;
   }
   
   @media (min-width: 768px) {

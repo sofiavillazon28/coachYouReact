@@ -1,0 +1,30 @@
+.alert {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 20px;
+  padding-right: 35px;
+  background-color: rgb(212 212 212);
+  border-radius: 6px;
+  line-height: 20px;
+  position: relative;
+
+  &-close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background: rgb(127 29 29);;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.alert--danger {
+  background-color: rgb(254 202 202);
+  color: rgb(127 29 29);
+}

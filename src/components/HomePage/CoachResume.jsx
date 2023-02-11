@@ -14,7 +14,7 @@ const CoachResume = () => {
                 <section className="section section-cards">
                     <div className="container g-elements gap-md">
                  
-                    {items.map((_, idx) => <CardItem></CardItem>)}
+                    {items.map((_, idx) => <CardItem key={idx}></CardItem>)}
 
                     </div>
                 </section>
